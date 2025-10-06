@@ -28,3 +28,35 @@ A Python-based **smart home control interface** that uses **hand gestures** and 
 
 ## 🧠 System Architecture
 
+[ Hand Gesture (OpenCV + MediaPipe) ]
+│
+▼
+[ Mode Logic + Serial ]
+│
+▼
+[ Arduino Controls Fan / Light / Door Servo ]
+▲
+│
+[ Voice Commands (Vosk Model + sounddevice) ]
+
+Copy code
+
+---
+
+## 🛠️ Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/<your-username>/gesture-voice-smart-home.git
+   cd gesture-voice-smart-home
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Download the Vosk model and place it in a folder named model/
+You can get it from: Vosk Models
+
+Connect your Arduino to the COM port (COM6 by default).
+Adjust the port in serial_handler.py if needed.
