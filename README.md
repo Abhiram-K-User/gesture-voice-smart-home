@@ -39,7 +39,6 @@ A Python-based **smart home control interface** that uses **hand gestures** and 
 │
 [ Voice Commands (Vosk Model + sounddevice) ]
 
-Copy code
 
 ---
 
@@ -53,7 +52,7 @@ Copy code
 Install dependencies:
 
 bash
-Copy code
+
 pip install -r requirements.txt
 Download the Vosk model and place it in a folder named model/
 You can get it from: Vosk Models
