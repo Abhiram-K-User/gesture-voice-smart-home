@@ -46,7 +46,6 @@ A Python-based **smart home control interface** that uses **hand gestures** and 
 
 1. Clone this repository:
 
-   ```bash
    git clone https://github.com/<your-username>/gesture-voice-smart-home.git
    cd gesture-voice-smart-home
 Install dependencies:
