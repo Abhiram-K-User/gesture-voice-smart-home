@@ -4,4 +4,3 @@ numpy
 sounddevice
 vosk
 pyserial
-tk
